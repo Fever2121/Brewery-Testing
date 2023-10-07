@@ -79,6 +79,9 @@ public class LegacyUtil {
 			if (m.name().endsWith("FENCE")) {
 				fences.add(m);
 			}
+			if (m.name().endsWith("WALL")) {
+				fences.add(m);
+			}
 		}
 		FENCES = fences;
 	}
